@@ -4,6 +4,7 @@
 #banner {
     text-align: center;
     background: transparent url('../imgs/fundo_banner.png') 0% 0% no-repeat padding-box;
+    background-position: top;
     opacity: 1;
     height: 900px;
     margin-left: -10px;
@@ -57,8 +58,91 @@
     background-position: center;
     background-size: 15000%;
 }
+
 .btn-grande:active {
     transition: background 0s;
     background-color: #F6AB39;
     background-size: 100%;
+}
+
+footer {
+    background-color: #1C1C0E;
+}
+
+#footer1 {
+    height: 195px;
+    padding-top: 15px;
+    display: block;
+    float: left;
+}
+
+#footer1 h1 {
+    text-align: left;
+    font: normal normal bold 20px/30px Nunito;
+    letter-spacing: 1px;
+    color: #FFF9D8;
+    opacity: 1;
+    margin-left: 155px;
+}
+
+#footer1 #redes-sociais {
+    margin-left: 155px;
+}
+
+#footer1 #redes-sociais img{
+    margin-right: 30px;
+}
+
+#footer-lateral {
+    display: block;
+    float: right;
+    height: 195px;
+    margin-left: 0px;
+}
+
+#footer-lateral h1 {
+    text-align: left;
+    font: normal normal bold 20px/30px Nunito;
+    letter-spacing: 1px;
+    color: #FFF9D8;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+#footer-lateral p {
+    text-align: justify;
+    font: normal normal normal 16px/24px Nunito;
+    letter-spacing: 0px;
+    color: #FFF9D8;
+    opacity: 0.3;
+    width: 470px;
+    margin-right: 155px;
+    margin-top: 0px;
+}
+
+#footer2 {
+    clear: both;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+#footer2 p {
+    text-align: center;
+    font: normal normal bold 14px/24px Nunito;
+    letter-spacing: 0px;
+    color: #E5B147;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+#footer2 p span {
+    text-align: center;
+    font: normal normal bold 14px/24px Nunito;
+    letter-spacing: 0px;
+    color: #3D2A0D;
+    opacity: 1;
+}
+
+#footer2 #direitos{
+    margin-bottom: -15px;
 }
