@@ -8,7 +8,7 @@ body {
     opacity: 0.8;
 }
 
-#home {
+#home-section {
     background: url(../img/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ body {
     min-height: 700px;
 }
 
-#home .overlay-sombra {
+#home-section .overlay-shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,17 +25,24 @@ body {
     background: rgba(0, 0, 0, 0.7);
 }
 
-#home .home-content {
+#home-section .home-content {
     padding-top: 150px;
 }
 
-#home .card-form {
+#home-section .card-form {
     opacity: 0.8;
 }
 
-#home .fa-check {
+#home-section .fa-check {
     color: #267ed6;
     background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-section .fa-check, #compartilhe-section .fa-check {
+    background: #333;
+    color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
