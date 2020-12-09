@@ -33,14 +33,16 @@ body {
     opacity: 0.8;
 }
 
-#home-section .fa-check {
+#home-section .fa-check, 
+#crie-section .fa-check  {
     color: #267ed6;
     background: #fff;
     padding: 5px;
     border-radius: 5px;
 }
 
-#explore-section .fa-check, #compartilhe-section .fa-check {
+#explore-section .fa-check, 
+#compartilhe-section .fa-check {
     background: #333;
     color: #fff;
     padding: 5px;
