@@ -1,3 +1,0 @@
-Aprendendo bootstrap e conceitos de flex-box antes de terminar de configurar o site.
-
-Faltam conhecimentos no momento para deixar o site responsivo e melhor decorado.
