@@ -104,6 +104,72 @@
       </div>
    </section>
 
+   <!-- Icones Home -->
+   <section id="icones-home" class="py-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4 mb-4 text-center">
+               <i class="fas fa-cog fa-3x mb-2"></i>
+               <h3>Iniciando Engrenagens</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, eum.
+               </p>
+            </div>
+            <div class="col-md-4 mb-4 text-center">
+               <i class="fas fa-cloud fa-3x mb-2"></i>
+               <h3>Mandando Informações</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, eum.
+               </p>
+            </div>
+            <div class="col-md-4 mb-4 text-center">
+               <i class="fas fa-cart-plus fa-3x mb-2"></i>
+               <h3>Fazendo Dinheiro</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, eum.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Home Topo -->
+   <section id="home-topo" class="p-5">
+      <div class="dark-overlay">
+         <div class="row">
+            <div class="col">
+               <div class="container pt-5">
+                  <h1>Você Está Pronto Para Começar?</h1>
+                  <p class="d-none d-md-block">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet porro explicabo exercitationem
+                     voluptates natus eius asperiores molestiae ullam facilis delectus.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Info -->
+   <section id="info" class="py-3">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 align-self-center">
+               <h3>Sobre</h3>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam magni voluptatum placeat dolor
+                  nesciunt, eligendi cumque temporibus inventore facilis eveniet.
+               </p>
+               <a href="sobre.html" class="btn btn-outline-danger btn-lg">Saiba Mais</a>
+            </div>
+            <div class="col-md-6">
+               <img src="img/laptop.png" alt="Laptop" class="img-fluid">
+            </div>
+         </div>
+      </div>
+   </section>
+
+
 
    <!-- JS bootstrap -->
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -118,6 +184,12 @@
    <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear())
+
+      // Slider
+      $('crousel').carousel({
+         interval: 6000,
+         pause: 'hover'
+      })
    </script>
 </body>
 
