@@ -1,0 +1,33 @@
+html {
+   scroll-behavior: smooth;
+}
+
+.navbar .nav-link {
+   font-size: 14px;
+   text-transform: uppercase;
+   padding-left: 1rem !important;
+   padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+   border-left: #444 3px solid;
+}
+
+.carousel-item {
+   height: 450px;
+}
+
+.imagem-carrossel-1 {
+   background: url('../img/image1.jpg');
+   background-size: cover;
+}
+
+.imagem-carrossel-2 {
+   background: url('../img/image2.jpg');
+   background-size: cover;
+}
+
+.imagem-carrossel-3 {
+   background: url('../img/image3.jpg');
+   background-size: cover;
+}
