@@ -69,3 +69,19 @@ body {
 #video-play a {
    color: #ffffff;
 }
+
+
+/* Sobre */
+#header {
+   height: 200px;
+   background: url('../img/image1.jpg');
+   background-position: 0 -360px;
+   background-attachment: fixed;
+   color: #ffffff;
+   border-bottom: 1px #eee solid;
+   padding-top: 50px;
+}
+
+.sobre-img {
+   margin-top: -30px;
+}
