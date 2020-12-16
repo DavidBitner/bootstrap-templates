@@ -85,3 +85,19 @@ body {
 .sobre-img {
    margin-top: -30px;
 }
+
+
+/* Serviços */
+#faq .card {
+   border: #444;
+}
+
+#faq a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+   background: #333;
+}
