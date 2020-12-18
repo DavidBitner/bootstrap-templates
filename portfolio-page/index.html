@@ -12,6 +12,11 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
 
+   <!-- LightBox -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous" />
+
    <!-- Titulo do documento -->
    <title>Porfolio Page</title>
 </head>
@@ -124,8 +129,8 @@
       </div>
 
       <!-- Resume -->
-      <div id="contact" class="collapse">
-         <div class="card card-body bg-primary text-white py-5">
+      <div id="resume" class="collapse">
+         <div class="card card-body bg-success text-white py-5">
             <h2>My Resume</h2>
             <p class="lead">
                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur debitis, tempora similique animi
@@ -139,63 +144,181 @@
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio delectus minima perspiciatis cum unde
                aliquam animi eius quisquam illo officia!
             </p>
-            <div class="card-deck">
-               <div class="card">
-                  <div class="card-body">
-                     <h4 class="card-title">Waheeda Tech</h4>
-                     <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, repellat.
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Position: Full Stack Developer
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Phone: (69) 69696-6969
-                     </p>
+            <div class="row">
+               <div class="col-lg-4 mb-3">
+                  <div class="card">
+                     <div class="card-body">
+                        <h4 class="card-title">Waheeda Tech</h4>
+                        <p class="card-text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Position: Web Developer
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Phone: (69) 69696-6969
+                        </p>
+                     </div>
+                     <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2017 - 2020</h6>
+                     </div>
                   </div>
-                  <div class="card-footer">
-                     <h6 class="text-muted">Dates: 2017 - 2020</h6>
+               </div>
+               <div class="col-lg-4 mb-3">
+                  <div class="card">
+                     <div class="card-body">
+                        <h4 class="card-title">Hakim Development</h4>
+                        <p class="card-text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Position: Web Designer
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Phone: (96) 96969-9696
+                        </p>
+                     </div>
+                     <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2014 - 2017</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="card">
+                     <div class="card-body">
+                        <h4 class="card-title">Gamila Design</h4>
+                        <p class="card-text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Position: CEO
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Phone: (11) 11111-1111
+                        </p>
+                     </div>
+                     <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2012 - 2014</h6>
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="card-deck">
-               <div class="card">
-                  <div class="card-body">
-                     <h4 class="card-title">Hakim Development</h4>
-                     <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor.
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Position: Web Designer
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Phone: (96) 96969-9696
-                     </p>
-                  </div>
-                  <div class="card-footer">
-                     <h6 class="text-muted">Dates: 2014 - 2017</h6>
-                  </div>
+         </div>
+      </div>
+
+      <!-- Work -->
+      <div id="work" class="collapse">
+         <div class="card card-body bg-warning text-white py-5">
+            <h2>My Resume</h2>
+            <p class="lead">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur debitis, tempora similique animi
+               vero officia.
+            </p>
+         </div>
+
+         <div class="card card-body py-5">
+            <h3>What Have I Built?</h3>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea suscipit possimus voluptatibus vitae porro
+               sequi?
+            </p>
+            <div class="row no-gutters">
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=252" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=253" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=254" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=255" alt="Random Img" class="img-fluid">
+                  </a>
                </div>
             </div>
-            <div class="card-deck">
-               <div class="card">
-                  <div class="card-body">
-                     <h4 class="card-title">Gamila Design</h4>
-                     <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, incidunt!
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Position: CEO
-                     </p>
-                     <p class="p-2 mb-3 bg-dark text-white">
-                        Phone: (11) 11111-1111
-                     </p>
-                  </div>
-                  <div class="card-footer">
-                     <h6 class="text-muted">Dates: 2012 - 2014</h6>
-                  </div>
+
+            <div class="row no-gutters">
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=256" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=257" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=258" alt="Random Img" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+                     <img src="https://unsplash.it/600.jpg?image=259" alt="Random Img" class="img-fluid">
+                  </a>
                </div>
             </div>
+         </div>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact" class="collapse">
+         <div class="card card-body bg-danger text-white py-5">
+            <h2>Contact</h2>
+            <p class="lead">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur debitis, tempora similique animi
+               vero officia.
+            </p>
+         </div>
+
+         <div class="card card-body py-5">
+            <h3>Get In Touch</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi.
+            </p>
+            <form>
+               <div class="form-group">
+                  <div class="input-group input-group-lg">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text bg-danger text-white">
+                           <i class="fas fa-user"></i>
+                        </span>
+                     </div>
+                     <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="input-group input-group-lg">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text bg-danger text-white">
+                           <i class="fas fa-envelope"></i>
+                        </span>
+                     </div>
+                     <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="input-group input-group-lg">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text bg-danger text-white">
+                           <i class="fas fa-pencil-alt"></i>
+                        </span>
+                     </div>
+                     <textarea class="form-control bg-dark text-white" placeholder="Name"></textarea>
+                  </div>
+               </div>
+
+               <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+            </form>
          </div>
       </div>
 
@@ -220,11 +343,22 @@
       crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/66fe1b441d.js" crossorigin="anonymous"></script>
 
+   <!-- LightBox -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
+      integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA=="
+      crossorigin="anonymous"></script>
+
    <!-- Meu JS -->
    <script>
       $('.port-item').click(function () {
          $('.collapse').collapse('hide')
       })
+
+      // Lightbox
+      $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+         e.preventDefault();
+         $(this).ekkoLightbox();
+      });
    </script>
 </body>
 
