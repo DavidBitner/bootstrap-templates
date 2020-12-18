@@ -123,6 +123,82 @@
          </div>
       </div>
 
+      <!-- Resume -->
+      <div id="contact" class="collapse">
+         <div class="card card-body bg-primary text-white py-5">
+            <h2>My Resume</h2>
+            <p class="lead">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur debitis, tempora similique animi
+               vero officia.
+            </p>
+         </div>
+
+         <div class="card card-body py-5">
+            <h3>Where Have I Worked?</h3>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio delectus minima perspiciatis cum unde
+               aliquam animi eius quisquam illo officia!
+            </p>
+            <div class="card-deck">
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">Waheeda Tech</h4>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, repellat.
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position: Full Stack Developer
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Phone: (69) 69696-6969
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates: 2017 - 2020</h6>
+                  </div>
+               </div>
+            </div>
+            <div class="card-deck">
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">Hakim Development</h4>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor.
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position: Web Designer
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Phone: (96) 96969-9696
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates: 2014 - 2017</h6>
+                  </div>
+               </div>
+            </div>
+            <div class="card-deck">
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">Gamila Design</h4>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, incidunt!
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position: CEO
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Phone: (11) 11111-1111
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates: 2012 - 2014</h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <!-- Footer -->
       <footer id="main-footer" class="p-5 bg-dark text-white">
          <div class="row">
@@ -146,8 +222,9 @@
 
    <!-- Meu JS -->
    <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear())
+      $('.port-item').click(function () {
+         $('.collapse').collapse('hide')
+      })
    </script>
 </body>
 
