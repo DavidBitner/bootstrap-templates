@@ -89,3 +89,31 @@ body {
 .carrossel-control {
    margin: -10px;
 }
+
+.carousel .carousel-indicators li {
+   background-color:rgba(246, 171, 57, .3);
+   border-radius: 50%;
+   height: 20px;
+   width: 20px;
+}
+
+.carousel .carousel-indicators .active {
+   background-color: #F6AB39;
+}
+
+.carousel .carousel-indicators li:hover {
+   background-color: #F6AB39;
+}
+
+#main-footer h4 {
+   font-weight: bold;
+}
+
+#main-footer p {
+   opacity: .3;
+}
+
+#last-footer p {
+   font-weight: bold;
+   opacity: .5;
+}
