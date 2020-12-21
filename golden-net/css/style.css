@@ -40,8 +40,10 @@ body {
    box-shadow: 2px 2px 16px #F6AB39;
 }
 
-#vantagens {
+#vantagens,
+#parceiros {
    color: #3D2A0D;
+   background-color: #FFFEF8;
 }
 
 .btn-lg {
@@ -49,10 +51,6 @@ body {
    letter-spacing: 3.2px;
    line-height: 55px;
    font-weight: bold;
-}
-
-#vantagens {
-   background-color: #FFFEF8;
 }
 
 #slider p, h3 {
@@ -64,7 +62,8 @@ body {
    opacity: .6;
 }
 
-#vantagens h2 {
+#vantagens h2,
+#parceiros h2 {
    font-weight: bold;
 }
 
@@ -103,6 +102,11 @@ body {
 
 .carousel .carousel-indicators li:hover {
    background-color: #F6AB39;
+}
+
+#parceiros .fas {
+   color: #F6AB39;
+   opacity: .3;
 }
 
 #main-footer h4 {
