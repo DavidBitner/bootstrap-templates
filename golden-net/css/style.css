@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@font-face {
+   font-family: 'NunitoSans';
+   src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+}
+
+@font-face {
+   font-family: 'NunitoSans';
+   src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+   font-weight: bold;
+}
 
 html {
    scroll-behavior: smooth;
 }
 
 body {
-   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'NunitoSans', sans-serif;
 }
 
 #home {
@@ -17,8 +26,13 @@ body {
    background-size: cover;
 }
 
+#home h1,
+#home h2 {
+   font-weight: bold;
+}
+
 .doidera {
-   min-height: 800px;
+   min-height: 600px;
 }
 
 .btn {
@@ -31,9 +45,47 @@ body {
 }
 
 .btn-lg {
-   width: 300px;
-   height: 70px;
    text-align: center;
    letter-spacing: 3.2px;
    line-height: 55px;
+   font-weight: bold;
+}
+
+#vantagens {
+   background-color: #FFFEF8;
+}
+
+#slider p, h3 {
+   color: #3D2A0D;
+}
+
+
+#slider p {
+   opacity: .6;
+}
+
+#vantagens h2 {
+   font-weight: bold;
+}
+
+.fas {
+   color: #3D2A0D;
+}
+
+.carrossel {
+   min-height:1px;
+   overflow:hidden;
+   display:block;
+}
+
+.carrossel h3 {
+   font-weight: bold;
+}
+
+.inline-block {
+   display: inline-block;
+}
+
+.carrossel-control {
+   margin: -10px;
 }
