@@ -2,322 +2,325 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Social Media</title>
+   <!-- TAGS META -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+   
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   
+   <!-- Titulo do documento -->
+   <title>Matti</title>
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">Social Media</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
+   <!-- MENU -->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+      <div class="container">
+         <a href="index.html" class="navbar-brand">Social Media</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a href="#home" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#explore-header" class="nav-link">Explore</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#crie-header" class="nav-link">Crie</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#compartilhe-header" class="nav-link">Compartilhe</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- HOME -->
+   <header id="home-section">
+      <div class="overlay-shadow">
+         <div class="home-content container">
+            <div class="row">
+               <!-- Conteudo para telas grandes -->
+               <div class="col-lg-8 d-none d-lg-block">
+                  <h1 class="display-4">
+                     Crie <strong>perfis sociais</strong> e ganhe <strong>dinheiro</strong>
+                  </h1>
+                  <div class="d-flex">
+                     <div class="p-4 align-self-start">
+                        <i class="fas fa-check fa-2x"></i>
+                     </div>
+                     <div class="p-4 align-self-end">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
+                        laudantium?
+                     </div>
+                  </div>
+                  <div class="d-flex">
+                     <div class="p-4 align-self-start">
+                        <i class="fas fa-check fa-2x"></i>
+                     </div>
+                     <div class="p-4 align-self-end">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
+                        laudantium?
+                     </div>
+                  </div>
+                  <div class="d-flex">
+                     <div class="p-4 align-self-start">
+                        <i class="fas fa-check fa-2x"></i>
+                     </div>
+                     <div class="p-4 align-self-end">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
+                        laudantium?
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Conteudo para telas pequenas -->
+               <div class="col-lg-4">
+                  <div class="card bg-primary text-center card-form">
+                     <div class="card-body">
+                        <h3>Increva-se agora</h3>
+                        <p>Por favor, preencha esse formulário para se registrar</p>
+                        <form>
+                           <div class="form-group">
+                              <input type="text" class="form-control form-control-lg" placeholder="Usuário">
+                           </div>
+                           <div class="form-group">
+                              <input type="email" class="form-control form-control-lg" placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                              <input type="password" class="form-control form-control-lg" placeholder="Senha">
+                           </div>
+                           <div class="form-group">
+                              <input type="password" class="form-control form-control-lg" placeholder="Confirmar Senha">
+                           </div>
+                           <input type="submit" value="Enviar" class="btn btn-outline-light btn-block">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- EXPLORE HEAD -->
+   <section id="explore-header">
+      <div class="container">
+         <div class="row">
+            <div class="col text-center py-5">
+               <h1 class="display4">Explore</h1>
+               <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste modi incidunt impedit
+                  at doloremque labore officia placeat libero est aperiam.
+               </p>
+               <a href="#" class="btn btn-outline-secondary">Saiba Mais</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- EXPLORE CONTENT -->
+   <section id="explore-section" class="bg-light text-muted py-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <img src="img/explorar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+            </div>
+            <div class="col-md-6">
+               <h3>Explore & Conecte-se</h3>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
+                  perferendis tempore commodi magni necessitatibus molestias tenetur?
+               </p>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
+                  </div>
+               </div>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- CRIE HEAD -->
+   <section id="crie-header" class="bg-primary">
+      <div class="container">
+         <div class="row">
+            <div class="col text-center py-5">
+               <h1 class="display4">Crie</h1>
+               <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas odio dolorem harum mollitia
+                  excepturi assumenda corrupti doloremque aspernatur quia consectetur, similique fugiat, corporis
+                  ut!
+               </p>
+               <a href="#" class="btn btn-outline-light">Saiba Mais</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- CRIE CONTENT -->
+   <section id="crie-section" class="py-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 order-2">
+               <img src="img/criar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+            </div>
+            <div class="col-md-6 order-1">
+               <h3>Crie Sua Paixão</h3>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
+                  perferendis tempore commodi magni necessitatibus molestias tenetur?
+               </p>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
+                  </div>
+               </div>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- COMPARTILHE HEAD -->
+   <section id="compartilhe-header" class="bg-primary">
+      <div class="container">
+         <div class="row">
+            <div class="col text-center py-5">
+               <h1 class="display4">Compartilhe</h1>
+               <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, voluptatibus possimus. Ex error
+                  ipsam totam excepturi, sapiente magnam!
+               </p>
+               <a href="#" class="btn btn-outline-light">Saiba Mais</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- COMPARTILHE CONTENT -->
+   <section id="compartilhe-section" class="bg-light text-muted py-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <img src="img/compartilhar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+            </div>
+            <div class="col-md-6">
+               <h3>Compartilhe Suas Criações</h3>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
+                  perferendis tempore commodi magni necessitatibus molestias tenetur?
+               </p>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
+                  </div>
+               </div>
+               <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                     <i class="fas fa-check fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- FOOTER -->
+   <footer id="main-footer" class="bg-dark">
+      <div class="container">
+         <div class="col text-center py-4">
+            <h3>Social Media</h3>
+            <p>Copyright &copy; Bitner <span id="year"></span></p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#contatoModal">
+               Entre em Contato
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#explore-header" class="nav-link">Explore</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#crie-header" class="nav-link">Crie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#compartilhe-header" class="nav-link">Compartilhe</a>
-                    </li>
-                </ul>
+         </div>
+      </div>
+   </footer>
+
+   <!-- CONTATO MODAL -->
+   <div class="modal fade text-dark" id="contatoModal">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Entre em Contato</h5>
+               <button class="close" data-dismiss="modal">
+                  <span>&times;</span>
+               </button>
             </div>
-        </div>
-    </nav>
-
-    <!-- HOME -->
-    <header id="home-section">
-        <div class="overlay-shadow">
-            <div class="home-content container">
-                <div class="row">
-                    <!-- Conteudo para telas grandes -->
-                    <div class="col-lg-8 d-none d-lg-block">
-                        <h1 class="display-4">
-                            Crie <strong>perfis sociais</strong> e ganhe <strong>dinheiro</strong>
-                        </h1>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check fa-2x"></i>
-                            </div>
-                            <div class="p-4 align-self-end">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
-                                laudantium?
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check fa-2x"></i>
-                            </div>
-                            <div class="p-4 align-self-end">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
-                                laudantium?
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check fa-2x"></i>
-                            </div>
-                            <div class="p-4 align-self-end">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate unde quod in
-                                laudantium?
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Conteudo para telas pequenas -->
-                    <div class="col-lg-4">
-                        <div class="card bg-primary text-center card-form">
-                            <div class="card-body">
-                                <h3>Increva-se agora</h3>
-                                <p>Por favor, preencha esse formulário para se registrar</p>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control form-control-lg" placeholder="Usuário">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control form-control-lg" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control form-control-lg" placeholder="Senha">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control form-control-lg"
-                                            placeholder="Confirmar Senha">
-                                    </div>
-                                    <input type="submit" value="Enviar" class="btn btn-outline-light btn-block">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-body">
+               <form>
+                  <div class="form-group">
+                     <label for="nome">Nome</label>
+                     <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                     <label for="email">Email</label>
+                     <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                     <label for="mensagem">Mensagem</label>
+                     <textarea cols="30" rows="4" class="form-control"></textarea>
+                  </div>
+               </form>
             </div>
-        </div>
-    </header>
-
-    <!-- EXPLORE HEAD -->
-    <section id="explore-header">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h1 class="display4">Explore</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste modi incidunt impedit
-                        at doloremque labore officia placeat libero est aperiam.
-                    </p>
-                    <a href="#" class="btn btn-outline-secondary">Saiba Mais</a>
-                </div>
+            <div class="modal-footer">
+               <button class="btn btn-primary btn-block">Enviar</button>
             </div>
-        </div>
-    </section>
-
-    <!-- EXPLORE CONTENT -->
-    <section id="explore-section" class="bg-light text-muted py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/explorar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h3>Explore & Conecte-se</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
-                        perferendis tempore commodi magni necessitatibus molestias tenetur?
-                    </p>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CRIE HEAD -->
-    <section id="crie-header" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h1 class="display4">Crie</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas odio dolorem harum mollitia
-                        excepturi assumenda corrupti doloremque aspernatur quia consectetur, similique fugiat, corporis
-                        ut!
-                    </p>
-                    <a href="#" class="btn btn-outline-light">Saiba Mais</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CRIE CONTENT -->
-    <section id="crie-section" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-2">
-                    <img src="img/criar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6 order-1">
-                    <h3>Crie Sua Paixão</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
-                        perferendis tempore commodi magni necessitatibus molestias tenetur?
-                    </p>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMPARTILHE HEAD -->
-    <section id="compartilhe-header" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h1 class="display4">Compartilhe</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, voluptatibus possimus. Ex error
-                        ipsam totam excepturi, sapiente magnam!
-                    </p>
-                    <a href="#" class="btn btn-outline-light">Saiba Mais</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMPARTILHE CONTENT -->
-    <section id="compartilhe-section" class="bg-light text-muted py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/compartilhar.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h3>Compartilhe Suas Criações</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit assumenda animi laboriosam
-                        perferendis tempore commodi magni necessitatibus molestias tenetur?
-                    </p>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="bg-dark">
-        <div class="container">
-            <div class="col text-center py-4">
-                <h3>Social Media</h3>
-                <p>Copyright &copy; Bitner <span id="year"></span></p>
-                <button class="btn btn-primary" data-toggle="modal" data-target="#contatoModal">
-                    Entre em Contato
-                </button>
-            </div>
-        </div>
-    </footer>
-
-    <!-- CONTATO MODAL -->
-    <div class="modal fade text-dark" id="contatoModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Entre em Contato</h5>
-                    <button class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="nome">Nome</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea cols="30" rows="4" class="form-control"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block">Enviar</button>
-                </div>
-            </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
 
 
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/66fe1b441d.js" crossorigin="anonymous"></script>
+   <!-- Bootstrap -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/66fe1b441d.js" crossorigin="anonymous"></script>
 
-    <script>
-        // Ano atual para o copyright
-        $('#year').text(new Date().getFullYear())
-    </script>
+   <script>
+      // Ano atual para o copyright
+      $('#year').text(new Date().getFullYear())
+   </script>
 </body>
 
 </html>
