@@ -1,2 +1,2 @@
-# first-website
- Simple website to understand how branches work
+# bootstrap-templates
+ Some bootstrap layouts
