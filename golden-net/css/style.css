@@ -38,19 +38,21 @@ body {
 .btn {
    border-radius: 200px;
    box-shadow: 2px 2px 16px #F6AB39;
+   color: #fff;
+   letter-spacing: 3.2px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 30px;
 }
 
 #vantagens,
-#parceiros {
+#planos {
    color: #3D2A0D;
    background-color: #FFFEF8;
 }
 
 .btn-lg {
-   text-align: center;
-   letter-spacing: 3.2px;
    line-height: 55px;
-   font-weight: bold;
 }
 
 #slider p, h3 {
@@ -63,7 +65,10 @@ body {
 }
 
 #vantagens h2,
-#parceiros h2 {
+#parceiros h2,
+#planos h2,
+#planos h3,
+#contato h2 {
    font-weight: bold;
 }
 
@@ -109,6 +114,45 @@ body {
    opacity: .3;
 }
 
+#planos {
+   background-color: #FFFEF8;
+}
+
+.principal {
+   font-size: 40px;
+}
+
+.secundario {
+   font-size: 15px;
+}
+
+.plano-normal {
+   box-shadow: 2px 2px 16px #F6AB3933;
+   border-radius: 6px;
+}
+
+.separador {
+   background: #FFF9D8 0% 0% no-repeat padding-box;
+   opacity: 0.1;
+   height: 2px;
+}
+
+.plano-normal p {
+   font-size: larger;
+   opacity: .5;
+}
+
+#telefone span {
+   opacity: .2;
+   letter-spacing: 2.4px;
+}
+
+#endereco {
+   background: url("../img/fundo_endereço.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 #main-footer h4 {
    font-weight: bold;
 }
@@ -117,7 +161,23 @@ body {
    opacity: .3;
 }
 
+#contato {
+   background-color: #FFFCEC;
+}
+
+#contato h2, p {
+   color: #3D2A0D;
+}
+
+#contato .fas {
+   color: #F6AB39;
+}
+
 #last-footer p {
    font-weight: bold;
+   opacity: .5;
+}
+
+.opacity-5 {
    opacity: .5;
 }
